@@ -2,8 +2,8 @@ import MainPage from "@/components/organism/MainPage";
 
 export default function page() {
   return (
-    <div className=" w-screen h-screen py-10 flex items-center justify-center bg-pink-50">
+    <main className="w-screen h-screen py-10 flex items-center justify-center bg-main-color text-text-main-color">
       <MainPage />
-    </div>
+    </main>
   );
 }
