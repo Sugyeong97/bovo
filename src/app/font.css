@@ -84,3 +84,8 @@ body {
   color: var(--foreground);
   font-family: 'memomentKkukkkuk', 'Pretendard_300', Arial, Helvetica, sans-serif;
 }
+
+body::selection {
+    background-color: #FF69B4;
+    color: #fff;
+}
