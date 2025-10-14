@@ -1,12 +1,13 @@
 import AbleList from "@/components/molecules/AbleList";
 import EnableList from "@/components/molecules/EnableList";
 import BaseLayout from "@/components/organism/BaseLayout";
+import Guestbook from "@/components/organism/Guestbook";
 
 export default function Page() {
     return (
         <BaseLayout>
             <section className="w-full h-full p-7 mr-24 border border-light-gray rounded-xl shadow-3xl bg-white flex flex-col items-start z-10">
-                방명록
+                <Guestbook />
             </section>
             <div className="absolute top-0 right-2">
                 <ul className="mt-5 w-24 h-1/2 flex flex-col gap-2">
