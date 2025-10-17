@@ -1,13 +1,7 @@
-import { ReactNode } from "react";
-
-interface MainTopProps {
-  elementContent?: ReactNode;
-}
-
-export default function MainTop({ elementContent = "" }: MainTopProps) {
+export default function MainTop() {
   return (
     <section className="pb-3 w-full text-center">
-      {elementContent}
+      TODAY <span className="text-point-color">230613</span> | TOTAL <span className="text-point-color">19971031</span>
     </section>
   );
 }
