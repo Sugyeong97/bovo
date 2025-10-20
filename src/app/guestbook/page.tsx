@@ -6,7 +6,7 @@ import Guestbook from "@/components/organism/Guestbook";
 export default function Page() {
     return (
         <BaseLayout>
-            <section className="w-full h-full p-7 mr-24 border border-light-gray rounded-xl shadow-3xl bg-white flex flex-col items-start z-10">
+            <section className="w-full h-full p-7 mr-24 border border-light-gray rounded-xl bg-white flex flex-col items-start z-10 shadow-inner">
                 <Guestbook />
             </section>
             <div className="absolute top-0 right-2">

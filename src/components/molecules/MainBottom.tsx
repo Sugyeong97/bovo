@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MainBottom() {
   return (
-    <section className="w-full h-full p-7 border border-light-gray rounded-xl shadow-3xl bg-white flex flex-col items-start">
+    <section className="w-full h-full p-7 border border-light-gray rounded-xl shadow-inner bg-white flex flex-col items-start">
       <div className="w-full h-1/2 rounded-lg overflow-hidden relative">
         <Image
           alt=""
