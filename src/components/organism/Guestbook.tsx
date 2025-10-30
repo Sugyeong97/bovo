@@ -2,11 +2,6 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
 
-interface GuestbookData {
-    id: string;
-    password: number;
-}
-
 export default function Guestbook() {
     const [inputValue, setInputValue] = useState(""); // 입력 필드의 값
     const [isPasswordCorrect, setIsPasswordCorrect] = useState(false); // 암호 일치 여부

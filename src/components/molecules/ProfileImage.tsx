@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 interface ProfileImageProps {
-    imgSrc?: string | any;
+    imgSrc?: string;
 }
 
 export default function ProfileImage({ imgSrc = "" }: ProfileImageProps) {
