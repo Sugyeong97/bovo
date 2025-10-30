@@ -1,3 +1,5 @@
+'use client';
+
 import ProfileImage from "../molecules/ProfileImage";
 import ProfileInfo from "../molecules/ProfileInfo";
 
@@ -5,7 +7,7 @@ export default function Profile() {
     return (
         <section className="w-full flex flex-col gap-5 overflow-x-hidden">
             <div className="w-full p-5 border border-secondary rounded flex gap-3">
-                <ProfileImage imgSrc="/images/test.jpg" />
+                <ProfileImage imgSrc="/images/profile/profile.jpg" />
                 <ProfileInfo name="조보경" birthday="1997.10.31" etc1="취미: 라이프위버로 앞서가는 탱커 당겨오기" etc2="특기: 임수경 웃기기 (매우잘함)" />
             </div>
 
